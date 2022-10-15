@@ -119,13 +119,26 @@ a{
     max-height: 180px;
     overflow-y: auto;
     padding-right: 15px;
+    
 }
+
+*::-webkit-scrollbar{
+    width: 11px;
+    background: #070d12;
+    border-radius: 50px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f12be8;
+    border-radius: 20px;
+    border: 3px solid #070d12;
+  }
 
 .informationPages .information .description span{
     color: #02d08f;
 }
 
-#contacts ul{
+#page-contacts ul{
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -142,19 +155,19 @@ a{
     transition: opacity 0.3s ease-in-out;
 }
 
-#contacts .curriculum{
+#page-contacts .curriculum{
     background-color: #06c185;
 }
 
-#contacts .linkedin{
+#page-contacts .linkedin{
     background-color: #1d87bd;
 }
 
-#contacts .github{
+#page-contacts .github{
     background-color: #545454;
 }
 
-#contacts li a:hover{
+#page-contacts li a:hover{
     opacity: 0.7;
 }
 
