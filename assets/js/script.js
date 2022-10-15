@@ -18,7 +18,5 @@ redirectionPages.forEach(page => {
 
         contentSelected.classList.remove("active");
 
-        const idPageSelected = `page${}`
-
     })
 })
